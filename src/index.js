@@ -1,4 +1,4 @@
- import {createStore, combineReducers} from 'redux';
+import {createStore, combineReducers} from 'redux';
 //People dropping off a form (Action Creators)
 const createPolicy = (name, amount) => {
     return { //Action (a form in our analogy)
@@ -98,3 +98,4 @@ store.dispatch(deletePolicy('Bob'));
 
 // Посмотреть состояние store на данный момент
 console.log(store.getState());
+
